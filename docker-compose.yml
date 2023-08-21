@@ -1,22 +1,29 @@
 version: '3'
 services:
-  instagramreels:
-    image: moulabi1911/instagramreels:latest
+  instareels:
+    image: moulabi1911/instareels:latest
     ports:
       - "91:80"
     deploy:
       replicas: 3
 
-  instagramphotos:
-    image: moulabi1911/instagramphotos:latest
+  instaphotos:
+    image: moulabi1911/instaphotos:latest
     ports:
       - "92:80"
     deploy:
       replicas: 3
 
-  instagramstory:
-    image: moualabi1911instagramstory:latest
+  instastory:
+    image: moualabi1911/instastory:latest
     ports:
       - "93:80"
     deploy:
       replicas: 3
+      
+   instacalls:
+     image: moulabi1911/instacalls:latest
+     ports:
+     - "94:80"
+     deploy:
+       replicas: 3
