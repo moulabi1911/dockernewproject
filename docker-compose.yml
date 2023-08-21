@@ -3,27 +3,27 @@ services:
   instareels:
     image: moulabi1911/instareels:latest
     ports:
-      - "91:80"
+      - "51:80"
     deploy:
       replicas: 3
 
   instaphotos:
     image: moulabi1911/instaphotos:latest
     ports:
-      - "92:80"
+      - "52:80"
     deploy:
       replicas: 3
 
   instastory:
     image: moualabi1911/instastory:latest
     ports:
-      - "93:80"
+      - "53:80"
     deploy:
       replicas: 3
       
   instacalls:
     image: moulabi1911/instacalls:latest
     ports:
-      - "94:80"
+      - "54:80"
     deploy:
       replicas: 3
