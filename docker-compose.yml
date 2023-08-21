@@ -24,6 +24,6 @@ services:
    instacalls:
      image: moulabi1911/instacalls:latest
      ports:
-     - "94:80"
+       - "94:80"
      deploy:
        replicas: 3
