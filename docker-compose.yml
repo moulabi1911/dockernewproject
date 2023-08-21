@@ -3,20 +3,20 @@ services:
   instagramreels:
     image: moulabi1911/instagramreels:latest
     ports:
-      - "81:80"
+      - "91:80"
     deploy:
       replicas: 3
 
   instagramphotos:
     image: moulabi1911/instagramphotos:latest
     ports:
-      - "82:80"
+      - "92:80"
     deploy:
       replicas: 3
 
   instagramstory:
     image: moualabi1911instagramstory:latest
     ports:
-      - "83:80"
+      - "93:80"
     deploy:
       replicas: 3
