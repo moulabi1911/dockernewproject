@@ -1,29 +1,22 @@
 version: '3'
 services:
-  movies:
-    image: rahamshaik/moviespaytm:latest
+  instagramreels:
+    image: moulabi1911/instagramreels:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
 
-  train:
-    image: rahamshaik/trainpaytm:latest
+  instagramphotos:
+    image: moulabi1911/instagramphotos:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
 
-  dth:
-    image: rahamshaik/dthpaytm:latest
+  instagramstory:
+    image: moualabi1911instagramstory:latest
     ports:
       - "83:80"
-    deploy:
-      replicas: 3
-
-  recharge:
-    image: rahamshaik/rechargepaytm:latest
-    ports:
-      - "84:80"
     deploy:
       replicas: 3
